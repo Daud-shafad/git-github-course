@@ -1,0 +1,16 @@
+GIT COURSE EXPLANATION
+______________________
+
+how to download and install
+
+___https://git-scm.com/download/win go this link and type in chrome url and then click windows and then click click here
+also you can install it.
+
+explanation about git
+
+
+___Git is a tool that is used in almost every software engineering job.
+___ if you want to get a job you need to know it and that is why we learned it
+___windows powershell is where we write and run the commands of our code in git which is code version control software
+___ git commit --amend --reset-author --no-edit - this command resets if there is previous/old name and email in commit
+of git version.
