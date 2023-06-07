@@ -1,0 +1,79 @@
+GIT COURSE EXPLANATION
+______________________
+
+how to download and install
+
+___https://git-scm.com/download/win go this link and type in chrome url and then click windows and then click click here
+also you can install it.
+
+explanation about git
+
+
+___Git is a tool that is used in almost every software engineering job.
+___ if you want to get a job you need to know it and that is why we learned it
+___windows powershell is where we write and run the commands of our code in git which is code version control software
+___ git commit --amend --reset-author --no-edit - this command resets if there is previous/old name and email in commit
+of git version.
+___so you might have noticed one thing which is big difference between google docs and git is that google docs 
+automatically creates versions of your document for you while you create manually in git.
+___you might wondering why are we creating manually in git, why we automate this, the problem with code is that until
+you finish your code it probably doesn't work so we donot really want to be automatically creating versions of our code
+that don't work. and the google docs doesn't matter if the things finished or not. it is just a bunch of words and 
+sentences, so you are not going to get errors from a half finished document.
+___note: git log command doesnot show unnamed branches.
+
+___you can make shortcuts:  git config --global alias.s "status"  which is same as "git s"
+___git config --global alias.cm "commit -m" which is same as "git cm -m"
+___ git config --global alias.co "checkout" which is  same as "git co"
+
+___GIT is a distributed version control system that tracks changes in any set of computer files, usually used for 
+coordinating work among programmers collaboratively developing source code during software development. it is goals 
+include speed, data integrity, and support for distributed, non-linear workflows.
+___developer: linus torvids, junio c hamano.
+___initial release date: april 7 2005
+___operating systems: posix (linux, macos, solaris, aix, and windows)
+___repository: git.kernel.org/pub/scm/git/git.git
+___stable release: 2.41.0/ 1 june 2023
+___written in: primarily in c, with gui and programming scripts written in shell script, perl, tcl, and pythong
+___git is a version control system used for tracking changes in computer files, it is generally used fo source code
+management in software development, git is used to tracking changes in the source code, the distributed version conrol
+tool is used fo source code management
+___git which is (global information tracker) is a powerful and widely-used version control system commonly used for 
+software development and other collaboratively projects. the full form of git isjust the beginning of understanding
+the powerful capabilities of this tool
+___git is not a programming language, but it is become incredibly important for computer programmers working in almost
+ any language you can name. today git is the de facto standard for what is known as version control software.
+___git is a distributed vcs, a category known as dvcs, more on that later. like many of the most popular vcs systems
+available today, git is free and open source.
+___git has a database "committed" means that the data is safely stored in your local database, the git directory is where git
+stores the meta data and object database for your project. github also provides access to a git database stored on github
+via an api, aptly named "git database"
+
+
+
+
+GIT HUB EXPLANATION
+___________________
+
+___2 WAYS SYNC which is any updates of computer also gets  update on google drive and any updates of google drive also
+gets updates on your computer.
+___you might be wondering why do we use github? why can't we just put our code into google drive? that will give us an 
+online backup and a two-way sync automatically. and to be honest you're right. we could just put our code into google 
+drive but just like google docs version history, google drive is not specifically designed for git repositories.
+just as a reminder, agit repository is a folder that contains our code, like we have here that is being tracked for 
+changes by git. github gives us similar benefits to google drive but it's specifically designed for git repositories.
+it has a lot of features that allow us to manage our code and our version history, and that is why we use a specialized
+service like github, instead of generic online backup solution like google drive, and icloud. and there is other several
+services that do the same thing as github, there is also bitbucket and gitlab. so we learn github, the other two are
+similar, the buttons are just in different places.
+
+___Daud_Eid123$ github account password, with armyman10249@gmail.com and a username of Daud-shafad
+
+___when you create a repository in your github account  you have two repositories one is for computer and one for
+a online backup. the one for computer is the folder on your desktop and is named local repository, the word
+local refers to things our computer, and the other one is online backup repository which is  the one you made in
+github account and also is named remote repository the word remote refers to things that are online.
+___get remote -v means -v stands for verbose which gives you more details
+
+___so we use git push in both cases, to initially push our code up to github, and also then later on to push new commits
+up to github as well.
